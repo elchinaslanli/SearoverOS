@@ -58,6 +58,7 @@ ignore = [
     "F401", # UnusedImport: We are using pylint 'ignore' comments for it
     "F821", # UndefinedName: We are using pylint 'ignore' comments for it
     "F841", # UnusedVariable: We are using pylint 'ignore' comments for it
+    "A003", # BuiltinAttributeShadowing: Unnecessary restriction (not a source of confusion)
 ]
 
 [tool.pylint]
